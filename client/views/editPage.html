@@ -1,0 +1,55 @@
+<div class="mainpage">
+
+    <div class="navbar">
+        <ul>
+            <li>
+                <a href="#!mainpage">Trang chủ</a>
+            </li>
+            <li>
+                <a href="#!editpage">Chỉnh sửa thông tin Internship</a>
+            </li>
+            <li>
+                <a href="#!loginpage">log out</a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <form class="form-edit">
+
+            <div>
+                  <label for="id">Internship ID :</label><br>
+                  <input type="text"  id='internId' ng-model="id" ng-disabled="disabledId" >
+                <button class="btn-search" id="btnSearch" ng-click="searchFnc()">Search</button>
+            </div>
+            <div>
+                  <label for="name">Internship name :</label><br>
+                  <input type="text"  id='internName'  ng-model="name">
+            </div>
+            <div>
+                  <label for="birthday">Internship birthday :</label><br>
+                  <input type="text" id="internBirthday" ng-model="birthday"> 
+            </div>
+            <div>
+                  <label for="date-intern">Ngày vào thực tập :</label><br>
+                  <input type="text" id="internDate" ng-model="getInCompanyDay">
+            </div>
+            <button class="btn-update" id="btnUpdate" ng-show="showupdate"  ng-click="updateFnc()">Update</button>
+        </form>
+        <br>
+        <script type="text/ng-template" id="dialogTemplate">
+            <div>
+                <div>{{message}}</div>
+                <div>{{message2}}</div>
+                <div>{{message3}}</div>
+                <div>{{message4}}</div>
+            </div>
+        </script>
+       
+        
+        
+    </div>
+
+   
+
+
+</div>

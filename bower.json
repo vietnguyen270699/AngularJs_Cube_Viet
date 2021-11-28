@@ -1,0 +1,21 @@
+{
+  "name": "Angularjs-prj",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.8.2",
+    "angular-route": "^1.8.2",
+    "angular-ui-router": "^1.0.29",
+    "jquery": "^3.6.0",
+    "jquery-ui": "^1.12.1"
+  }
+}

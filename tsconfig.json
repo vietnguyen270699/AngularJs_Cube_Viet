@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "target": "ES5",
+        "module": "none",
+        "inlineSourceMap": false,
+        "removeComments": true,
+        "outFile": "app.js"
+    }
+}

@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    border: 1px solid black;
+}
+.header img{
+    padding: 5px;
+    border-right: 1px solid black ;
+}
+.header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+}
+.login{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-input{
+    display: flex;
+}
+
+.title-input div{
+    margin: 10px;
+}
+.title-input .text-input{
+    width: 100px;
+}
+.login button{
+    margin-left: 300px;
+    padding: 5px 20px;
+    background-color: rgb(117, 181, 255);
+}
+.mainpage{
+    display: flex;
+}
+.mainpage .navbar{
+    height: 82vh;
+    width: 210px;
+    line-height: 20px;
+    border-right: 1px solid black;
+}
+.mainpage .content{
+    margin: 20px;
+    margin-left: 50px;
+}
+.mainpage .content .date-end{
+    color: red;
+}
+.form-edit div{
+    line-height: 12px;
+    display: flex;
+}
+.form-edit div label{
+    width: 150px;
+    margin: 5px;
+}
+.form-edit div input{
+    margin-bottom: 5px;
+}
+.btn-search{
+    margin-left: 20px;
+}
+.btn-update{
+    display: block;
+    margin-left: 300px;
+    width: 100px;
+    margin-top: 5px;
+}
